@@ -1,0 +1,94 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+body {
+  margin-top: 10px
+}
+.nav a {
+  background-color: #4490AA;
+  border-radius: 10%;
+  color: #ffffff;
+  font-size: 0,5em;
+  font-weight: bold;
+  padding: 5px 5px 5px 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.nav a:hover {
+  background-color: #dbdbdb;
+  color: #000000;
+  font-size: 1,3em;
+  text-decoration: underline;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image: url("../images/paper_1280.jpg");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.learn-more {
+  background-color: #eeeeee;
+  border-bottom: solid 1px;
+  border-color: #dbdbdb;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+.neighborhood-guides {
+  background-color: #ffffff;
+}
+.neighborhood-guides h2 {
+  color: #393c3d;
+  font-size: 24px;
+}
+.neighborhood-guides p {
+  font-size: 15px;
+  margin-bottom: 13px;
+}
+.thumbnail {
+  border: none;
+}
+.larga {
+  margin-top: 5px;
+  height: 400px;
+  width: 100%;
+}
+.panel-footer {
+  background-color: #4490AA;
+  border-top: solid 1px;
+  border-color: #dbdbdb;
+  color: #f9f9f9;
+  margin-top: 5px;
+}
